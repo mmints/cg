@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		94117F94E5A24FCEB1D79EC3 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 21717A0FE3044834A7CE6B35 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				5AD60727B7DF4CE3B8198A7F /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		E38422B2C90B49FCB6DD1F91 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 10139E3D23004380B5508DE2 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				8E76AB495DC84A09ABE525FD /* CMake Rules */,
+			);
+			dependencies = (
+				73F9F76E5A3E4FFD9D11818E /* PBXTargetDependency */,
+				86A9551F38B741939BB81476 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0804C84D34B5483886E7D0E1 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Ray.h */ = {isa = PBXBuildFile; fileRef = B917AEB9DB23400BAAC1C7FA /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Ray.h */; };
+		0E50BCF50BE14BC08B3184C0 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Sphere.cpp */ = {isa = PBXBuildFile; fileRef = 6F6AC92BCA8E4622B2C65940 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Sphere.cpp */; };
+		21E5E543AE6944C2AE2D43CF /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Object.h */ = {isa = PBXBuildFile; fileRef = EC1A60CF740F4D17AE9AFC31 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Object.h */; };
+		2EB2A7A9CC4047CDBB31A158 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Light.h */ = {isa = PBXBuildFile; fileRef = EFF2D7A0295F4F438D6FF31C /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Light.h */; };
+		511A559F212A4707AC37B1C1 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 4E1C2876F21748B9AF39E9AD /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/CMakeLists.txt */; };
+		64E9856F414F4D53A5E17AB7 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Geometry.h */ = {isa = PBXBuildFile; fileRef = 303863A3F2DA4B95B6BE0A99 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Geometry.h */; };
+		675D684EEF3D47CE978B6148 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/main.cpp */ = {isa = PBXBuildFile; fileRef = E6C4FEBCBCB04B15888BD924 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/main.cpp */; };
+		7626DC9922BD47DAA7DFE247 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/stb_image_write.cpp */ = {isa = PBXBuildFile; fileRef = D2E53137B948410599C5BED9 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/stb_image_write.cpp */; };
+		76C2093C87984D10BB0590AD /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Plane.h */ = {isa = PBXBuildFile; fileRef = 86019403DA8548AEBD5A14C2 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Plane.h */; };
+		7903022DDB1040E5BA2AFF8C /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Camera.cpp */ = {isa = PBXBuildFile; fileRef = 103A22711E544F7C91EFCE4E /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Camera.cpp */; };
+		7FD2BB0D97CE4A0A9F297861 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Material.cpp */ = {isa = PBXBuildFile; fileRef = F79EE9B41E304FA1B1532160 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Material.cpp */; };
+		AE9A7013D283477985D0C432 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Camera.h */ = {isa = PBXBuildFile; fileRef = 65028472BFC74435A8EFD36E /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Camera.h */; };
+		CA1F702D36974401875FE7BF /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Sphere.h */ = {isa = PBXBuildFile; fileRef = 4111CF2C47F3423AB6ED9CAB /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Sphere.h */; };
+		CB710C853C0849D6B9F595A8 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/stb_image_write.h */ = {isa = PBXBuildFile; fileRef = F235078FF35E438CAE37B94D /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/stb_image_write.h */; };
+		D5A50FDD10974DEDB31B6B4E /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Plane.cpp */ = {isa = PBXBuildFile; fileRef = 7C8A9F7E09B2489EB90518E5 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Plane.cpp */; };
+		FA438AF5B6064A1D8AE330C4 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Material.h */ = {isa = PBXBuildFile; fileRef = 7FEC6AAAE57B4E2DA5340DA9 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Material.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		6CFEEAF29FD542968D19E2EE /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		A342572243664B719788E913 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		2E15C92F1C4A4B21A8C7A0A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3019F8797644C0980EE1FD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94117F94E5A24FCEB1D79EC3;
+			remoteInfo = ZERO_CHECK;
+		};
+		53A8E24D8F314460B61E4BD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3019F8797644C0980EE1FD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 764E2B6B201D4432B999B3AC;
+			remoteInfo = 11_Solution;
+		};
+		DD87A9A3449F4082956F03F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3019F8797644C0980EE1FD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94117F94E5A24FCEB1D79EC3;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07C277AFAC49420E9034D352 /* 11_Solution */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = 11_Solution; sourceTree = BUILT_PRODUCTS_DIR; };
+		103A22711E544F7C91EFCE4E /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Camera.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Camera.cpp; path = Camera.cpp; sourceTree = SOURCE_ROOT; };
+		303863A3F2DA4B95B6BE0A99 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Geometry.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Geometry.h; path = Geometry.h; sourceTree = SOURCE_ROOT; };
+		4111CF2C47F3423AB6ED9CAB /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Sphere.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Sphere.h; path = Sphere.h; sourceTree = SOURCE_ROOT; };
+		4E1C2876F21748B9AF39E9AD /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		65028472BFC74435A8EFD36E /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Camera.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Camera.h; path = Camera.h; sourceTree = SOURCE_ROOT; };
+		6F6AC92BCA8E4622B2C65940 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Sphere.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Sphere.cpp; path = Sphere.cpp; sourceTree = SOURCE_ROOT; };
+		7C8A9F7E09B2489EB90518E5 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Plane.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Plane.cpp; path = Plane.cpp; sourceTree = SOURCE_ROOT; };
+		7FEC6AAAE57B4E2DA5340DA9 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Material.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Material.h; path = Material.h; sourceTree = SOURCE_ROOT; };
+		86019403DA8548AEBD5A14C2 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Plane.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Plane.h; path = Plane.h; sourceTree = SOURCE_ROOT; };
+		A71EA174DB9A428E9C7EB3DD /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B917AEB9DB23400BAAC1C7FA /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Ray.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Ray.h; path = Ray.h; sourceTree = SOURCE_ROOT; };
+		C3952D5EE5B44E0580DF46EB /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D2E53137B948410599C5BED9 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/stb_image_write.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stb_image_write.cpp; path = stb_image_write.cpp; sourceTree = SOURCE_ROOT; };
+		E6C4FEBCBCB04B15888BD924 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		EC1A60CF740F4D17AE9AFC31 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Object.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Object.h; path = Object.h; sourceTree = SOURCE_ROOT; };
+		EFF2D7A0295F4F438D6FF31C /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Light.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Light.h; path = Light.h; sourceTree = SOURCE_ROOT; };
+		F235078FF35E438CAE37B94D /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/stb_image_write.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stb_image_write.h; path = stb_image_write.h; sourceTree = SOURCE_ROOT; };
+		F79EE9B41E304FA1B1532160 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Material.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Material.cpp; path = Material.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		12210700246B4C14949CD1BC /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				ADEFC0859CE747E2BED1567F /* CMake Rules */,
+				C3952D5EE5B44E0580DF46EB /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		92B8BABF45274B65A445335B /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				65028472BFC74435A8EFD36E /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Camera.h */,
+				303863A3F2DA4B95B6BE0A99 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Geometry.h */,
+				EFF2D7A0295F4F438D6FF31C /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Light.h */,
+				7FEC6AAAE57B4E2DA5340DA9 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Material.h */,
+				EC1A60CF740F4D17AE9AFC31 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Object.h */,
+				86019403DA8548AEBD5A14C2 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Plane.h */,
+				B917AEB9DB23400BAAC1C7FA /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Ray.h */,
+				4111CF2C47F3423AB6ED9CAB /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Sphere.h */,
+				F235078FF35E438CAE37B94D /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/stb_image_write.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		A9D3D651E1A7491C927D472A = {
+			isa = PBXGroup;
+			children = (
+				C5DC94468D7C47DBA8972877 /* 11_Solution */,
+				12210700246B4C14949CD1BC /* ALL_BUILD */,
+				CDDA897ADC9E453AA9F00683 /* ZERO_CHECK */,
+				EA614DF2D1CF4D95AC8F200D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADEFC0859CE747E2BED1567F /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		B5A2EF32A3F74AC9B5DCE492 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				103A22711E544F7C91EFCE4E /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Camera.cpp */,
+				F79EE9B41E304FA1B1532160 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Material.cpp */,
+				7C8A9F7E09B2489EB90518E5 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Plane.cpp */,
+				6F6AC92BCA8E4622B2C65940 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Sphere.cpp */,
+				E6C4FEBCBCB04B15888BD924 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/main.cpp */,
+				D2E53137B948410599C5BED9 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/stb_image_write.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C5DC94468D7C47DBA8972877 /* 11_Solution */ = {
+			isa = PBXGroup;
+			children = (
+				B5A2EF32A3F74AC9B5DCE492 /* Source Files */,
+				92B8BABF45274B65A445335B /* Header Files */,
+				4E1C2876F21748B9AF39E9AD /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/CMakeLists.txt */,
+			);
+			name = 11_Solution;
+			sourceTree = "<group>";
+		};
+		CDDA897ADC9E453AA9F00683 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				D44CB906264242EF8BDA87AA /* CMake Rules */,
+				A71EA174DB9A428E9C7EB3DD /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		D44CB906264242EF8BDA87AA /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		EA614DF2D1CF4D95AC8F200D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07C277AFAC49420E9034D352 /* 11_Solution */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		764E2B6B201D4432B999B3AC /* 11_Solution */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAA9C6A39ABE45ECAD3E5E4B /* Build configuration list for PBXNativeTarget "11_Solution" */;
+			buildPhases = (
+				CBD4A6E49FE34BA3BCF7DDA4 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B05527A6A6047F6B238D430 /* PBXTargetDependency */,
+			);
+			name = 11_Solution;
+			productName = 11_Solution;
+			productReference = 07C277AFAC49420E9034D352 /* 11_Solution */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3019F8797644C0980EE1FD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0830;
+			};
+			buildConfigurationList = 5C96DE877263452FB77FCE6F /* Build configuration list for PBXProject "11_Solution" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				A342572243664B719788E913 /* Debug */,
+				6CFEEAF29FD542968D19E2EE /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = A9D3D651E1A7491C927D472A;
+			projectDirPath = /Users/mark/Development/cg/CG_demos/src/executables/11_Solution;
+			projectRoot = "";
+			targets = (
+				E38422B2C90B49FCB6DD1F91 /* ALL_BUILD */,
+				764E2B6B201D4432B999B3AC /* 11_Solution */,
+				94117F94E5A24FCEB1D79EC3 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5AD60727B7DF4CE3B8198A7F /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+/Users/mark/Development/cg/CG_demos/BUILD_Xcode/executables/11_Solution/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mark/Development/cg/CG_demos/BUILD_Xcode/executables/11_Solution -f /Users/mark/Development/cg/CG_demos/BUILD_Xcode/executables/11_Solution/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		8E76AB495DC84A09ABE525FD /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+/Users/mark/Development/cg/CG_demos/BUILD_Xcode/executables/11_Solution/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mark/Development/cg/CG_demos/BUILD_Xcode/executables/11_Solution -f /Users/mark/Development/cg/CG_demos/BUILD_Xcode/executables/11_Solution/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		B323366D686D4EFB8CDB000A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		CDCD51D576DB4CD5B0604228 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBD4A6E49FE34BA3BCF7DDA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7903022DDB1040E5BA2AFF8C /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Camera.cpp */,
+				7FD2BB0D97CE4A0A9F297861 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Material.cpp */,
+				D5A50FDD10974DEDB31B6B4E /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Plane.cpp */,
+				0E50BCF50BE14BC08B3184C0 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/Sphere.cpp */,
+				675D684EEF3D47CE978B6148 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/main.cpp */,
+				7626DC9922BD47DAA7DFE247 /* /Users/mark/Development/cg/CG_demos/src/executables/11_Solution/stb_image_write.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B05527A6A6047F6B238D430 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94117F94E5A24FCEB1D79EC3 /* ZERO_CHECK */;
+			targetProxy = 2E15C92F1C4A4B21A8C7A0A9 /* PBXContainerItemProxy */;
+		};
+		73F9F76E5A3E4FFD9D11818E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 764E2B6B201D4432B999B3AC /* 11_Solution */;
+			targetProxy = 53A8E24D8F314460B61E4BD6 /* PBXContainerItemProxy */;
+		};
+		86A9551F38B741939BB81476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94117F94E5A24FCEB1D79EC3 /* ZERO_CHECK */;
+			targetProxy = DD87A9A3449F4082956F03F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		062861EB11A74D48A5CB15EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/mark/Development/cg/CG_demos/BUILD_Xcode/bin/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLM_FORCE_RADIANS,"'SHADERS_PATH=\"/Users/mark/Development/cg/CG_demos/src/shaders\"'","'RESOURCES_PATH=\"/Users/mark/Development/cg/CG_demos/src/../../resources\"'",GLFW_INCLUDE_GLCOREARB,GLEW_STATIC,GL_DO_NOT_WARN_IF_MULTI_GL_VERSION_HEADERS_INCLUDED,GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/mark/Development/cg/CG_demos/src/../../libraries);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/mark/Development/cg/CG_demos/BUILD_Xcode/lib/Release/libCG1_Tools.a /Users/mark/Development/cg/CG_demos/BUILD_Xcode/lib/Release/libCVK_1_Minimal.a /Users/mark/Development/cg/CG_demos/BUILD_Xcode/lib/Release/libSimpleImage.a /usr/local/lib/libglfw.dylib /usr/local/lib/libGLEW.a -framework Cocoa -framework OpenGL -framework IOKit -framework CoreVideo /Users/mark/Development/cg/CG_demos/BUILD_Xcode/lib/Release/libCG1_Tools.a /Users/mark/Development/cg/CG_demos/BUILD_Xcode/lib/Release/libCVK_1_Minimal.a /Users/mark/Development/cg/CG_demos/BUILD_Xcode/lib/Release/libSimpleImage.a /usr/local/lib/libglfw.dylib /usr/local/lib/libGLEW.a -framework Cocoa -framework OpenGL -framework IOKit -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = 11_Solution;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mark/Development/cg/CG_demos/BUILD_Xcode/executables/11_Solution;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		38AD77D796AA46C198CE4838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = /Users/mark/Development/cg/CG_demos/BUILD_Xcode/executables/11_Solution/build;
+			};
+			name = Debug;
+		};
+		56286215F1D74ACFB181B165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/mark/Development/cg/CG_demos/src/../../libraries);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mark/Development/cg/CG_demos/BUILD_Xcode/executables/11_Solution;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		655716C8546F477283D3592E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/mark/Development/cg/CG_demos/src/../../libraries);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mark/Development/cg/CG_demos/BUILD_Xcode/executables/11_Solution;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		75AE3C79FE3C413F94E45600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/mark/Development/cg/CG_demos/src/../../libraries);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mark/Development/cg/CG_demos/BUILD_Xcode/executables/11_Solution;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		A5DEBF8C5F0D43C8BD007247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = /Users/mark/Development/cg/CG_demos/BUILD_Xcode/executables/11_Solution/build;
+			};
+			name = Release;
+		};
+		DE8565AA5420473F9D4EEF77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/mark/Development/cg/CG_demos/src/../../libraries);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mark/Development/cg/CG_demos/BUILD_Xcode/executables/11_Solution;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		FDA4CA17121841529A139E59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/mark/Development/cg/CG_demos/BUILD_Xcode/bin/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLM_FORCE_RADIANS,"'SHADERS_PATH=\"/Users/mark/Development/cg/CG_demos/src/shaders\"'","'RESOURCES_PATH=\"/Users/mark/Development/cg/CG_demos/src/../../resources\"'",GLFW_INCLUDE_GLCOREARB,GLEW_STATIC,GL_DO_NOT_WARN_IF_MULTI_GL_VERSION_HEADERS_INCLUDED,GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/mark/Development/cg/CG_demos/src/../../libraries);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11     ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/mark/Development/cg/CG_demos/BUILD_Xcode/lib/Debug/libCG1_Tools.a /Users/mark/Development/cg/CG_demos/BUILD_Xcode/lib/Debug/libCVK_1_Minimal.a /Users/mark/Development/cg/CG_demos/BUILD_Xcode/lib/Debug/libSimpleImage.a /usr/local/lib/libglfw.dylib /usr/local/lib/libGLEW.a -framework Cocoa -framework OpenGL -framework IOKit -framework CoreVideo /Users/mark/Development/cg/CG_demos/BUILD_Xcode/lib/Debug/libCG1_Tools.a /Users/mark/Development/cg/CG_demos/BUILD_Xcode/lib/Debug/libCVK_1_Minimal.a /Users/mark/Development/cg/CG_demos/BUILD_Xcode/lib/Debug/libSimpleImage.a /usr/local/lib/libglfw.dylib /usr/local/lib/libGLEW.a -framework Cocoa -framework OpenGL -framework IOKit -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = 11_Solution;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mark/Development/cg/CG_demos/BUILD_Xcode/executables/11_Solution;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10139E3D23004380B5508DE2 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56286215F1D74ACFB181B165 /* Debug */,
+				DE8565AA5420473F9D4EEF77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		21717A0FE3044834A7CE6B35 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655716C8546F477283D3592E /* Debug */,
+				75AE3C79FE3C413F94E45600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5C96DE877263452FB77FCE6F /* Build configuration list for PBXProject "11_Solution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38AD77D796AA46C198CE4838 /* Debug */,
+				A5DEBF8C5F0D43C8BD007247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BAA9C6A39ABE45ECAD3E5E4B /* Build configuration list for PBXNativeTarget "11_Solution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA4CA17121841529A139E59 /* Debug */,
+				062861EB11A74D48A5CB15EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3019F8797644C0980EE1FD9 /* Project object */;
+}

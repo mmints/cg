@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		94117F94E5A24FCEB1D79EC3 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 56F53482377F474491668447 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				305F54C398B3417586FEE9C2 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		E38422B2C90B49FCB6DD1F91 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0738B9CEDA8443B7A6B17B3B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				628DDA18192A40E886B0DF00 /* CMake Rules */,
+			);
+			dependencies = (
+				4D95A7BCB6DB4C88863585AA /* PBXTargetDependency */,
+				0032DB44F90B4908805DB643 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		08F693B9C47640098B0EB46A /* /Users/mark/Development/cg/libraries/CG1_Tools/CVK_ShaderSet.cpp */ = {isa = PBXBuildFile; fileRef = FC36EEB4B0A0488EB693F505 /* /Users/mark/Development/cg/libraries/CG1_Tools/CVK_ShaderSet.cpp */; };
+		2AA1306674F64503828F0AE0 /* /Users/mark/Development/cg/libraries/CG1_Tools/TextureTools.h */ = {isa = PBXBuildFile; fileRef = DC3C46B6B0B2489BB4A5924E /* /Users/mark/Development/cg/libraries/CG1_Tools/TextureTools.h */; };
+		2C1AD555C3CD4DF6B5F1CDD7 /* /Users/mark/Development/cg/libraries/CG1_Tools/CVK_Defs.h */ = {isa = PBXBuildFile; fileRef = B12946D804174322A7474265 /* /Users/mark/Development/cg/libraries/CG1_Tools/CVK_Defs.h */; };
+		4458F44081E94FDD93D669C7 /* /Users/mark/Development/cg/libraries/CG1_Tools/TextureTools.cpp */ = {isa = PBXBuildFile; fileRef = C51C25C8124146749A0A092C /* /Users/mark/Development/cg/libraries/CG1_Tools/TextureTools.cpp */; };
+		478DBC1491B44907B3D8AE6D /* /Users/mark/Development/cg/libraries/CG1_Tools/ShaderTools.cpp */ = {isa = PBXBuildFile; fileRef = A3FCA0811E1E41F08F5DBC7B /* /Users/mark/Development/cg/libraries/CG1_Tools/ShaderTools.cpp */; };
+		4BE3B0801E4E46608B02BAD7 /* /Users/mark/Development/cg/libraries/CG1_Tools/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = AC8287F55F8047EAB9E8796C /* /Users/mark/Development/cg/libraries/CG1_Tools/CMakeLists.txt */; };
+		5771F7FA19914D45B8F57149 /* /Users/mark/Development/cg/libraries/CG1_Tools/CompatibilityTools.h */ = {isa = PBXBuildFile; fileRef = 386003295C0B4688A15E1715 /* /Users/mark/Development/cg/libraries/CG1_Tools/CompatibilityTools.h */; };
+		6B7D8F3755864761B3E34DEA /* /Users/mark/Development/cg/libraries/CG1_Tools/stb_image.h */ = {isa = PBXBuildFile; fileRef = 4A0F28BB7806434A8FE80D67 /* /Users/mark/Development/cg/libraries/CG1_Tools/stb_image.h */; };
+		7DCF881FFEB5458D8086EDFD /* /Users/mark/Development/cg/libraries/CG1_Tools/PixelTools.cpp */ = {isa = PBXBuildFile; fileRef = 6EF1A367D1634350A3C9E9BA /* /Users/mark/Development/cg/libraries/CG1_Tools/PixelTools.cpp */; };
+		845EB646090B414A9F702F9C /* /Users/mark/Development/cg/libraries/CG1_Tools/Geometry.h */ = {isa = PBXBuildFile; fileRef = 4DD96FBED457492596D00D0B /* /Users/mark/Development/cg/libraries/CG1_Tools/Geometry.h */; };
+		9EC9AC14614A4B71BDDF7651 /* /Users/mark/Development/cg/libraries/CG1_Tools/CompatibilityTools.cpp */ = {isa = PBXBuildFile; fileRef = 5D454B7AF4D84D09A55BD766 /* /Users/mark/Development/cg/libraries/CG1_Tools/CompatibilityTools.cpp */; };
+		AC6229BAA8994871AFDED8A2 /* /Users/mark/Development/cg/libraries/CG1_Tools/CVK_ShaderSet.h */ = {isa = PBXBuildFile; fileRef = 6135E50C93E049B2A25C618C /* /Users/mark/Development/cg/libraries/CG1_Tools/CVK_ShaderSet.h */; };
+		B5291062BF084A739FDFF83F /* /Users/mark/Development/cg/libraries/CG1_Tools/stb_image.cpp */ = {isa = PBXBuildFile; fileRef = FD5DFE4AC4664F15B4423299 /* /Users/mark/Development/cg/libraries/CG1_Tools/stb_image.cpp */; };
+		C418D81BFBA54D95935AD580 /* /Users/mark/Development/cg/libraries/CG1_Tools/ShaderTools.h */ = {isa = PBXBuildFile; fileRef = E11595076F35465D9ACAF12A /* /Users/mark/Development/cg/libraries/CG1_Tools/ShaderTools.h */; };
+		EB276071156B4ADA88F5ACDC /* /Users/mark/Development/cg/libraries/CG1_Tools/PixelTools.h */ = {isa = PBXBuildFile; fileRef = 79E4357011A54D38B94A4A15 /* /Users/mark/Development/cg/libraries/CG1_Tools/PixelTools.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		4C19BEC6092F43B396B254E8 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		7F324CEBC9654FBC9C45D565 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		08A06C74AEFF4DE9AEE719F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FF7A5A118F64AF4A15B2AAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94117F94E5A24FCEB1D79EC3;
+			remoteInfo = ZERO_CHECK;
+		};
+		6040623DCC994D138CA365D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FF7A5A118F64AF4A15B2AAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A67AF85D49E44C7AE4B275C;
+			remoteInfo = CG1_Tools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		386003295C0B4688A15E1715 /* /Users/mark/Development/cg/libraries/CG1_Tools/CompatibilityTools.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CompatibilityTools.h; path = CompatibilityTools.h; sourceTree = SOURCE_ROOT; };
+		4A0F28BB7806434A8FE80D67 /* /Users/mark/Development/cg/libraries/CG1_Tools/stb_image.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stb_image.h; path = stb_image.h; sourceTree = SOURCE_ROOT; };
+		4C5BC36FE44D4E2FB05B6C1C /* /Users/mark/Development/cg/libraries/CG1_Tools/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4DD96FBED457492596D00D0B /* /Users/mark/Development/cg/libraries/CG1_Tools/Geometry.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Geometry.h; path = Geometry.h; sourceTree = SOURCE_ROOT; };
+		5D454B7AF4D84D09A55BD766 /* /Users/mark/Development/cg/libraries/CG1_Tools/CompatibilityTools.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CompatibilityTools.cpp; path = CompatibilityTools.cpp; sourceTree = SOURCE_ROOT; };
+		6135E50C93E049B2A25C618C /* /Users/mark/Development/cg/libraries/CG1_Tools/CVK_ShaderSet.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CVK_ShaderSet.h; path = CVK_ShaderSet.h; sourceTree = SOURCE_ROOT; };
+		6EF1A367D1634350A3C9E9BA /* /Users/mark/Development/cg/libraries/CG1_Tools/PixelTools.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PixelTools.cpp; path = PixelTools.cpp; sourceTree = SOURCE_ROOT; };
+		79E4357011A54D38B94A4A15 /* /Users/mark/Development/cg/libraries/CG1_Tools/PixelTools.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PixelTools.h; path = PixelTools.h; sourceTree = SOURCE_ROOT; };
+		A3FCA0811E1E41F08F5DBC7B /* /Users/mark/Development/cg/libraries/CG1_Tools/ShaderTools.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ShaderTools.cpp; path = ShaderTools.cpp; sourceTree = SOURCE_ROOT; };
+		AC8287F55F8047EAB9E8796C /* /Users/mark/Development/cg/libraries/CG1_Tools/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B12946D804174322A7474265 /* /Users/mark/Development/cg/libraries/CG1_Tools/CVK_Defs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CVK_Defs.h; path = CVK_Defs.h; sourceTree = SOURCE_ROOT; };
+		C51C25C8124146749A0A092C /* /Users/mark/Development/cg/libraries/CG1_Tools/TextureTools.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TextureTools.cpp; path = TextureTools.cpp; sourceTree = SOURCE_ROOT; };
+		D8DE95CAE020462E849FEFBD /* /Users/mark/Development/cg/libraries/CG1_Tools/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DC3C46B6B0B2489BB4A5924E /* /Users/mark/Development/cg/libraries/CG1_Tools/TextureTools.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TextureTools.h; path = TextureTools.h; sourceTree = SOURCE_ROOT; };
+		E11595076F35465D9ACAF12A /* /Users/mark/Development/cg/libraries/CG1_Tools/ShaderTools.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ShaderTools.h; path = ShaderTools.h; sourceTree = SOURCE_ROOT; };
+		EE579DCAD2EE4EF9A74DD993 /* CG1_Tools */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCG1_Tools.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC36EEB4B0A0488EB693F505 /* /Users/mark/Development/cg/libraries/CG1_Tools/CVK_ShaderSet.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CVK_ShaderSet.cpp; path = CVK_ShaderSet.cpp; sourceTree = SOURCE_ROOT; };
+		FD5DFE4AC4664F15B4423299 /* /Users/mark/Development/cg/libraries/CG1_Tools/stb_image.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stb_image.cpp; path = stb_image.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0D29078C71AA466C9410DB19 /* CG1_Tools */ = {
+			isa = PBXGroup;
+			children = (
+				3C5A12AD22C84769A5ECF1CC /* Source Files */,
+				9C954646D85749C3A64CBBF0 /* Header Files */,
+				AC8287F55F8047EAB9E8796C /* /Users/mark/Development/cg/libraries/CG1_Tools/CMakeLists.txt */,
+			);
+			name = CG1_Tools;
+			sourceTree = "<group>";
+		};
+		1720E4D61DE14C04BB0DE10F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE579DCAD2EE4EF9A74DD993 /* CG1_Tools */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BA1C115E1114EB0801B36BF /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		3C5A12AD22C84769A5ECF1CC /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC36EEB4B0A0488EB693F505 /* /Users/mark/Development/cg/libraries/CG1_Tools/CVK_ShaderSet.cpp */,
+				5D454B7AF4D84D09A55BD766 /* /Users/mark/Development/cg/libraries/CG1_Tools/CompatibilityTools.cpp */,
+				6EF1A367D1634350A3C9E9BA /* /Users/mark/Development/cg/libraries/CG1_Tools/PixelTools.cpp */,
+				A3FCA0811E1E41F08F5DBC7B /* /Users/mark/Development/cg/libraries/CG1_Tools/ShaderTools.cpp */,
+				C51C25C8124146749A0A092C /* /Users/mark/Development/cg/libraries/CG1_Tools/TextureTools.cpp */,
+				FD5DFE4AC4664F15B4423299 /* /Users/mark/Development/cg/libraries/CG1_Tools/stb_image.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		6A703B6D17F34BE68D0BDD5D = {
+			isa = PBXGroup;
+			children = (
+				0D29078C71AA466C9410DB19 /* CG1_Tools */,
+				EE6AAA5A718140159D2C9116 /* ALL_BUILD */,
+				AC8F6D0C7706478A9930BA12 /* ZERO_CHECK */,
+				1720E4D61DE14C04BB0DE10F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C954646D85749C3A64CBBF0 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				B12946D804174322A7474265 /* /Users/mark/Development/cg/libraries/CG1_Tools/CVK_Defs.h */,
+				6135E50C93E049B2A25C618C /* /Users/mark/Development/cg/libraries/CG1_Tools/CVK_ShaderSet.h */,
+				386003295C0B4688A15E1715 /* /Users/mark/Development/cg/libraries/CG1_Tools/CompatibilityTools.h */,
+				4DD96FBED457492596D00D0B /* /Users/mark/Development/cg/libraries/CG1_Tools/Geometry.h */,
+				79E4357011A54D38B94A4A15 /* /Users/mark/Development/cg/libraries/CG1_Tools/PixelTools.h */,
+				E11595076F35465D9ACAF12A /* /Users/mark/Development/cg/libraries/CG1_Tools/ShaderTools.h */,
+				DC3C46B6B0B2489BB4A5924E /* /Users/mark/Development/cg/libraries/CG1_Tools/TextureTools.h */,
+				4A0F28BB7806434A8FE80D67 /* /Users/mark/Development/cg/libraries/CG1_Tools/stb_image.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		AC8F6D0C7706478A9930BA12 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				3BA1C115E1114EB0801B36BF /* CMake Rules */,
+				4C5BC36FE44D4E2FB05B6C1C /* /Users/mark/Development/cg/libraries/CG1_Tools/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		D6B0CCEE2DF5473295E915C1 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		EE6AAA5A718140159D2C9116 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				D6B0CCEE2DF5473295E915C1 /* CMake Rules */,
+				D8DE95CAE020462E849FEFBD /* /Users/mark/Development/cg/libraries/CG1_Tools/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A67AF85D49E44C7AE4B275C /* CG1_Tools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B6CADA47D69480E9E342834 /* Build configuration list for PBXNativeTarget "CG1_Tools" */;
+			buildPhases = (
+				5B083D6F681C4949B3FCEEBA /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CG1_Tools;
+			productName = CG1_Tools;
+			productReference = EE579DCAD2EE4EF9A74DD993 /* CG1_Tools */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FF7A5A118F64AF4A15B2AAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0830;
+			};
+			buildConfigurationList = FFEFC290B94F46B5B07BC1FD /* Build configuration list for PBXProject "CG1_Tools" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				7F324CEBC9654FBC9C45D565 /* Debug */,
+				4C19BEC6092F43B396B254E8 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 6A703B6D17F34BE68D0BDD5D;
+			projectDirPath = /Users/mark/Development/cg/libraries/CG1_Tools;
+			projectRoot = "";
+			targets = (
+				E38422B2C90B49FCB6DD1F91 /* ALL_BUILD */,
+				4A67AF85D49E44C7AE4B275C /* CG1_Tools */,
+				94117F94E5A24FCEB1D79EC3 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		305F54C398B3417586FEE9C2 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+/Users/mark/Development/cg/CG_demos/BUILD_Xcode/libraries/CG1_Tools/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mark/Development/cg/CG_demos/BUILD_Xcode/libraries/CG1_Tools -f /Users/mark/Development/cg/CG_demos/BUILD_Xcode/libraries/CG1_Tools/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		628DDA18192A40E886B0DF00 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+/Users/mark/Development/cg/CG_demos/BUILD_Xcode/libraries/CG1_Tools/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mark/Development/cg/CG_demos/BUILD_Xcode/libraries/CG1_Tools -f /Users/mark/Development/cg/CG_demos/BUILD_Xcode/libraries/CG1_Tools/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		D00C5A99BDDF4F2989AF5BD2 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		EB2EEE76D14A4E1E8DE28B8E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B083D6F681C4949B3FCEEBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F693B9C47640098B0EB46A /* /Users/mark/Development/cg/libraries/CG1_Tools/CVK_ShaderSet.cpp */,
+				9EC9AC14614A4B71BDDF7651 /* /Users/mark/Development/cg/libraries/CG1_Tools/CompatibilityTools.cpp */,
+				7DCF881FFEB5458D8086EDFD /* /Users/mark/Development/cg/libraries/CG1_Tools/PixelTools.cpp */,
+				478DBC1491B44907B3D8AE6D /* /Users/mark/Development/cg/libraries/CG1_Tools/ShaderTools.cpp */,
+				4458F44081E94FDD93D669C7 /* /Users/mark/Development/cg/libraries/CG1_Tools/TextureTools.cpp */,
+				B5291062BF084A739FDFF83F /* /Users/mark/Development/cg/libraries/CG1_Tools/stb_image.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0032DB44F90B4908805DB643 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A67AF85D49E44C7AE4B275C /* CG1_Tools */;
+			targetProxy = 6040623DCC994D138CA365D7 /* PBXContainerItemProxy */;
+		};
+		4D95A7BCB6DB4C88863585AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94117F94E5A24FCEB1D79EC3 /* ZERO_CHECK */;
+			targetProxy = 08A06C74AEFF4DE9AEE719F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		309295B5882A4A5188947D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/mark/Development/cg/CG_demos/src/../../libraries);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mark/Development/cg/CG_demos/BUILD_Xcode/libraries/CG1_Tools;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		7D8AC79FB01F454DBDA3C74F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = /Users/mark/Development/cg/CG_demos/BUILD_Xcode/libraries/CG1_Tools/build;
+			};
+			name = Release;
+		};
+		800337F80E46443FB7884D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = /Users/mark/Development/cg/CG_demos/BUILD_Xcode/libraries/CG1_Tools/build;
+			};
+			name = Debug;
+		};
+		8F20839293344387B75FFADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/mark/Development/cg/CG_demos/src/../../libraries);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mark/Development/cg/CG_demos/BUILD_Xcode/libraries/CG1_Tools;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		9190F6CBE9BB457CBC95DBB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/mark/Development/cg/CG_demos/BUILD_Xcode/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLM_FORCE_RADIANS,"'SHADERS_PATH=\"/Users/mark/Development/cg/CG_demos/src/shaders\"'","'RESOURCES_PATH=\"/Users/mark/Development/cg/CG_demos/src/../../resources\"'",GLFW_INCLUDE_GLCOREARB,GLEW_STATIC,GL_DO_NOT_WARN_IF_MULTI_GL_VERSION_HEADERS_INCLUDED,GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/mark/Development/cg/CG_demos/src/../../libraries);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11     -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CG1_Tools;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mark/Development/cg/CG_demos/BUILD_Xcode/libraries/CG1_Tools;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		96B7CE114657420A9AC7CBC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/mark/Development/cg/CG_demos/src/../../libraries);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mark/Development/cg/CG_demos/BUILD_Xcode/libraries/CG1_Tools;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		D3A4A4D265BD4F368EFB437F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/mark/Development/cg/CG_demos/src/../../libraries);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mark/Development/cg/CG_demos/BUILD_Xcode/libraries/CG1_Tools;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		D884759D87314EF78B046983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/mark/Development/cg/CG_demos/BUILD_Xcode/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLM_FORCE_RADIANS,"'SHADERS_PATH=\"/Users/mark/Development/cg/CG_demos/src/shaders\"'","'RESOURCES_PATH=\"/Users/mark/Development/cg/CG_demos/src/../../resources\"'",GLFW_INCLUDE_GLCOREARB,GLEW_STATIC,GL_DO_NOT_WARN_IF_MULTI_GL_VERSION_HEADERS_INCLUDED,GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/mark/Development/cg/CG_demos/src/../../libraries);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11     ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CG1_Tools;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mark/Development/cg/CG_demos/BUILD_Xcode/libraries/CG1_Tools;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0738B9CEDA8443B7A6B17B3B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3A4A4D265BD4F368EFB437F /* Debug */,
+				309295B5882A4A5188947D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		56F53482377F474491668447 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96B7CE114657420A9AC7CBC4 /* Debug */,
+				8F20839293344387B75FFADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8B6CADA47D69480E9E342834 /* Build configuration list for PBXNativeTarget "CG1_Tools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D884759D87314EF78B046983 /* Debug */,
+				9190F6CBE9BB457CBC95DBB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FFEFC290B94F46B5B07BC1FD /* Build configuration list for PBXProject "CG1_Tools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800337F80E46443FB7884D7A /* Debug */,
+				7D8AC79FB01F454DBDA3C74F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FF7A5A118F64AF4A15B2AAD /* Project object */;
+}

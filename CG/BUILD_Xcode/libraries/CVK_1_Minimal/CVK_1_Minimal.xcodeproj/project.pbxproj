@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		C47C8B7BF4C84958BB8F41C4 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E66295E536A6498C8CA407FC /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				3C40CE1C8BEF4061B7B1685D /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		CD6AF11CB9B5428699A9815A /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BA81DB81D24149B19D6CB84C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				D45DA2B0502E4A18BC46E8D9 /* CMake Rules */,
+			);
+			dependencies = (
+				C56B1A5AC5C6422198305AB0 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		002114A51B7D4E6FA3734A11 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Geometry.h */ = {isa = PBXBuildFile; fileRef = E621322580584161B63089E6 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Geometry.h */; };
+		048E0A44667B4348A99DDF4B /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_State.cpp */ = {isa = PBXBuildFile; fileRef = 604587897CF146B6934DDBBA /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_State.cpp */; };
+		06DC0978ADAD403BAA1B0101 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Projection.h */ = {isa = PBXBuildFile; fileRef = 8731833CE95A4F508C670C49 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Projection.h */; };
+		0B819026763F4182A3810CC2 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_ShaderSet.h */ = {isa = PBXBuildFile; fileRef = CFEBF3F36BDB4F25A974AD8A /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_ShaderSet.h */; };
+		13E3806C08D64D76A36147E7 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Node.h */ = {isa = PBXBuildFile; fileRef = 3C5FCC427D9341068249E339 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Node.h */; };
+		1793B888094348CF8FE0B276 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Teapot.h */ = {isa = PBXBuildFile; fileRef = 6BE893A7CEB74036A57A1AA8 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Teapot.h */; };
+		199258AD109D47119C271BF2 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Camera.cpp */ = {isa = PBXBuildFile; fileRef = 0587E8988796477C98C0F32A /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Camera.cpp */; };
+		1BC1A8EC1BCD4D83B68427E9 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Ortho.cpp */ = {isa = PBXBuildFile; fileRef = 650D0353FABC406EB5DD4A6F /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Ortho.cpp */; };
+		1CA9C36DBCD5481CA41D4148 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Defs.h */ = {isa = PBXBuildFile; fileRef = 785B8DE991414746B9E7B4AE /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Defs.h */; };
+		2359B76FB1694DA8803731E5 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Sphere.h */ = {isa = PBXBuildFile; fileRef = 4C82929C2C094F66828FC7D9 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Sphere.h */; };
+		30B3003F93B94BA59A425DF3 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Camera.h */ = {isa = PBXBuildFile; fileRef = A6FF50288BF2444EBE9F9095 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Camera.h */; };
+		31756B2055F04B04976D1402 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_CompatibilityTools.h */ = {isa = PBXBuildFile; fileRef = E7D058D0FEE34D17A20ABFAF /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_CompatibilityTools.h */; };
+		4A36984D6B5D434F90A1D7EF /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 037A3AED775747F690837A5D /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CMakeLists.txt */; };
+		5077E03F99624D48B4A55BE7 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Triangle.h */ = {isa = PBXBuildFile; fileRef = 1878281A29BA43D2A8EE4A92 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Triangle.h */; };
+		531DE20065A5492DB485A377 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Trackball.cpp */ = {isa = PBXBuildFile; fileRef = 288CFB26A3494AEB9B54B1CC /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Trackball.cpp */; };
+		5754A2D7669642F08A3F6A87 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Perspective.cpp */ = {isa = PBXBuildFile; fileRef = 55473BBF8B1D4DC297A55451 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Perspective.cpp */; };
+		5B01B465267443D6AB417A5A /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Triangle.cpp */ = {isa = PBXBuildFile; fileRef = B348A30226BD4CFA8F315331 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Triangle.cpp */; };
+		647351907A87449DB51D91CF /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Plane.cpp */ = {isa = PBXBuildFile; fileRef = BD8487B52D10411EBC9FE920 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Plane.cpp */; };
+		6908449C6DD74D1A98A6E40E /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/stb_image.h */ = {isa = PBXBuildFile; fileRef = 11BD2F4DA76745C89778A417 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/stb_image.h */; };
+		6AACEF1D213C4AF7B4060DA8 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Projection.cpp */ = {isa = PBXBuildFile; fileRef = A6A44239840F4BB2973F9DB9 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Projection.cpp */; };
+		721FBC4588C44E6EB6172A60 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_ShaderMinimal.cpp */ = {isa = PBXBuildFile; fileRef = 1824FC7AEB1448C7B0E90384 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_ShaderMinimal.cpp */; };
+		72F8A582E5E94A00B04E6E0A /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Teapot.cpp */ = {isa = PBXBuildFile; fileRef = 623E2B1794F64F9F9A838611 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Teapot.cpp */; };
+		7863D0036B3C4120B7495B6C /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Cube.h */ = {isa = PBXBuildFile; fileRef = 389EC99086414801AF4A24D0 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Cube.h */; };
+		7BA4A03E489F4984A7D725A5 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/stb_image.cpp */ = {isa = PBXBuildFile; fileRef = 0D9384F828E84F32B273FF3C /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/stb_image.cpp */; };
+		7F13D642E63940C7A83EE7AB /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Pilotview.h */ = {isa = PBXBuildFile; fileRef = 3AC9255171BC42CC83AB7045 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Pilotview.h */; };
+		830232BB2B7E4DCEBCEF489C /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Ortho.h */ = {isa = PBXBuildFile; fileRef = 9282F39ECC704EFF86302144 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Ortho.h */; };
+		90229E5E7472429B8DC1F1BF /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Cone.h */ = {isa = PBXBuildFile; fileRef = DF9CAC884EBF4B7198D273CA /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Cone.h */; };
+		922C9E574F0B43DC93F1AF8D /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Plane.h */ = {isa = PBXBuildFile; fileRef = 8BB60F4F2A104873A5F8FF56 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Plane.h */; };
+		956C3B316048442BB77AD667 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Node.cpp */ = {isa = PBXBuildFile; fileRef = 99E9DDB8C91141AF99866DA3 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Node.cpp */; };
+		961CFE0C3FF14F4F831E5B0F /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Sphere.cpp */ = {isa = PBXBuildFile; fileRef = 8FE74CE4B8B746AC83A99220 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Sphere.cpp */; };
+		A8B3C9B9380445108400FCB6 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Perspective.h */ = {isa = PBXBuildFile; fileRef = 68814EBCE8CD4FD5896533EC /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Perspective.h */; };
+		AF509CAB1B134D70A91E6ACB /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Framework.h */ = {isa = PBXBuildFile; fileRef = 5752C6A5EA9E4F6BA36AD0C4 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Framework.h */; };
+		B3E4C868D30E4A6DA44F8C95 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Cube.cpp */ = {isa = PBXBuildFile; fileRef = 5A0881F2E313409F937B4F83 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Cube.cpp */; };
+		BB358A260D3E4E5DA9C7C66C /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Cone.cpp */ = {isa = PBXBuildFile; fileRef = FFC37E29BC124212BA5C9843 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Cone.cpp */; };
+		CA1586952A334F76A070E553 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_State.h */ = {isa = PBXBuildFile; fileRef = 878EB1769AC04E75B8E923A0 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_State.h */; };
+		CC300DEBD88045358B7F298C /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/Teapot.h */ = {isa = PBXBuildFile; fileRef = C768306E415C493DBF9F42ED /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/Teapot.h */; };
+		CE6D1CBB32F241EE8A70CE3A /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Geometry.cpp */ = {isa = PBXBuildFile; fileRef = 50740A811F994C5A90B61639 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Geometry.cpp */; };
+		CFBDBE65958640E18878445A /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Pilotview.cpp */ = {isa = PBXBuildFile; fileRef = 935E2AE4E80640DBBE09D57A /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Pilotview.cpp */; };
+		DE5E8C9E234E4FF4BFF974A8 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_CompatibilityTools.cpp */ = {isa = PBXBuildFile; fileRef = 4F962B2CE194496FAD1D34EF /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_CompatibilityTools.cpp */; };
+		E2108FE205C44074B6C6D4B3 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_ShaderSet.cpp */ = {isa = PBXBuildFile; fileRef = 3D4183C73CF246E88991A6B3 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_ShaderSet.cpp */; };
+		E9EBA112910545C48794BCC0 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Trackball.h */ = {isa = PBXBuildFile; fileRef = 76D07501BF744C74987B21D8 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Trackball.h */; };
+		F97DE03BE1404D24A8B1F038 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_ShaderMinimal.h */ = {isa = PBXBuildFile; fileRef = 30A598ECC27841B5AE98E27D /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_ShaderMinimal.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		49BEE9F604E04AC090C594E2 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		C84936C629234C2ABB77F897 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		C606C133F890437084AA3A26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49610CE272FB447B96F5733E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C47C8B7BF4C84958BB8F41C4;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		037A3AED775747F690837A5D /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		0587E8988796477C98C0F32A /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Camera.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CVK_Camera.cpp; path = CVK_Camera.cpp; sourceTree = SOURCE_ROOT; };
+		0D9384F828E84F32B273FF3C /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/stb_image.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stb_image.cpp; path = stb_image.cpp; sourceTree = SOURCE_ROOT; };
+		11BD2F4DA76745C89778A417 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/stb_image.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stb_image.h; path = stb_image.h; sourceTree = SOURCE_ROOT; };
+		1743A9C455064AEA8C69A63D /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1824FC7AEB1448C7B0E90384 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_ShaderMinimal.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CVK_ShaderMinimal.cpp; path = CVK_ShaderMinimal.cpp; sourceTree = SOURCE_ROOT; };
+		1878281A29BA43D2A8EE4A92 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Triangle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CVK_Triangle.h; path = CVK_Triangle.h; sourceTree = SOURCE_ROOT; };
+		288CFB26A3494AEB9B54B1CC /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Trackball.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CVK_Trackball.cpp; path = CVK_Trackball.cpp; sourceTree = SOURCE_ROOT; };
+		30A598ECC27841B5AE98E27D /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_ShaderMinimal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CVK_ShaderMinimal.h; path = CVK_ShaderMinimal.h; sourceTree = SOURCE_ROOT; };
+		389EC99086414801AF4A24D0 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Cube.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CVK_Cube.h; path = CVK_Cube.h; sourceTree = SOURCE_ROOT; };
+		3AC9255171BC42CC83AB7045 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Pilotview.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CVK_Pilotview.h; path = CVK_Pilotview.h; sourceTree = SOURCE_ROOT; };
+		3C5FCC427D9341068249E339 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Node.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CVK_Node.h; path = CVK_Node.h; sourceTree = SOURCE_ROOT; };
+		3D4183C73CF246E88991A6B3 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_ShaderSet.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CVK_ShaderSet.cpp; path = CVK_ShaderSet.cpp; sourceTree = SOURCE_ROOT; };
+		4C82929C2C094F66828FC7D9 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Sphere.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CVK_Sphere.h; path = CVK_Sphere.h; sourceTree = SOURCE_ROOT; };
+		4F962B2CE194496FAD1D34EF /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_CompatibilityTools.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CVK_CompatibilityTools.cpp; path = CVK_CompatibilityTools.cpp; sourceTree = SOURCE_ROOT; };
+		50740A811F994C5A90B61639 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Geometry.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CVK_Geometry.cpp; path = CVK_Geometry.cpp; sourceTree = SOURCE_ROOT; };
+		55473BBF8B1D4DC297A55451 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Perspective.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CVK_Perspective.cpp; path = CVK_Perspective.cpp; sourceTree = SOURCE_ROOT; };
+		5752C6A5EA9E4F6BA36AD0C4 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Framework.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CVK_Framework.h; path = CVK_Framework.h; sourceTree = SOURCE_ROOT; };
+		5A0881F2E313409F937B4F83 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Cube.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CVK_Cube.cpp; path = CVK_Cube.cpp; sourceTree = SOURCE_ROOT; };
+		604587897CF146B6934DDBBA /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_State.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CVK_State.cpp; path = CVK_State.cpp; sourceTree = SOURCE_ROOT; };
+		623E2B1794F64F9F9A838611 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Teapot.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CVK_Teapot.cpp; path = CVK_Teapot.cpp; sourceTree = SOURCE_ROOT; };
+		650D0353FABC406EB5DD4A6F /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Ortho.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CVK_Ortho.cpp; path = CVK_Ortho.cpp; sourceTree = SOURCE_ROOT; };
+		68814EBCE8CD4FD5896533EC /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Perspective.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CVK_Perspective.h; path = CVK_Perspective.h; sourceTree = SOURCE_ROOT; };
+		6BE893A7CEB74036A57A1AA8 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Teapot.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CVK_Teapot.h; path = CVK_Teapot.h; sourceTree = SOURCE_ROOT; };
+		76D07501BF744C74987B21D8 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Trackball.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CVK_Trackball.h; path = CVK_Trackball.h; sourceTree = SOURCE_ROOT; };
+		785B8DE991414746B9E7B4AE /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Defs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CVK_Defs.h; path = CVK_Defs.h; sourceTree = SOURCE_ROOT; };
+		8731833CE95A4F508C670C49 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Projection.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CVK_Projection.h; path = CVK_Projection.h; sourceTree = SOURCE_ROOT; };
+		878EB1769AC04E75B8E923A0 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_State.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CVK_State.h; path = CVK_State.h; sourceTree = SOURCE_ROOT; };
+		8BB60F4F2A104873A5F8FF56 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Plane.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CVK_Plane.h; path = CVK_Plane.h; sourceTree = SOURCE_ROOT; };
+		8FE74CE4B8B746AC83A99220 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Sphere.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CVK_Sphere.cpp; path = CVK_Sphere.cpp; sourceTree = SOURCE_ROOT; };
+		9282F39ECC704EFF86302144 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Ortho.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CVK_Ortho.h; path = CVK_Ortho.h; sourceTree = SOURCE_ROOT; };
+		935E2AE4E80640DBBE09D57A /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Pilotview.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CVK_Pilotview.cpp; path = CVK_Pilotview.cpp; sourceTree = SOURCE_ROOT; };
+		99E9DDB8C91141AF99866DA3 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Node.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CVK_Node.cpp; path = CVK_Node.cpp; sourceTree = SOURCE_ROOT; };
+		A6A44239840F4BB2973F9DB9 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Projection.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CVK_Projection.cpp; path = CVK_Projection.cpp; sourceTree = SOURCE_ROOT; };
+		A6FF50288BF2444EBE9F9095 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Camera.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CVK_Camera.h; path = CVK_Camera.h; sourceTree = SOURCE_ROOT; };
+		B204082CF3ED4908A97F2D1F /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B348A30226BD4CFA8F315331 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Triangle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CVK_Triangle.cpp; path = CVK_Triangle.cpp; sourceTree = SOURCE_ROOT; };
+		BD8487B52D10411EBC9FE920 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Plane.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CVK_Plane.cpp; path = CVK_Plane.cpp; sourceTree = SOURCE_ROOT; };
+		C768306E415C493DBF9F42ED /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/Teapot.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Teapot.h; path = Teapot.h; sourceTree = SOURCE_ROOT; };
+		CFEBF3F36BDB4F25A974AD8A /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_ShaderSet.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CVK_ShaderSet.h; path = CVK_ShaderSet.h; sourceTree = SOURCE_ROOT; };
+		D467DD9F00574EB39DC47E5B /* CVK_1_Minimal */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCVK_1_Minimal.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF9CAC884EBF4B7198D273CA /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Cone.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CVK_Cone.h; path = CVK_Cone.h; sourceTree = SOURCE_ROOT; };
+		E621322580584161B63089E6 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Geometry.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CVK_Geometry.h; path = CVK_Geometry.h; sourceTree = SOURCE_ROOT; };
+		E7D058D0FEE34D17A20ABFAF /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_CompatibilityTools.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CVK_CompatibilityTools.h; path = CVK_CompatibilityTools.h; sourceTree = SOURCE_ROOT; };
+		FFC37E29BC124212BA5C9843 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Cone.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CVK_Cone.cpp; path = CVK_Cone.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		06BC856623FB4AAD9BE684BE /* CVK_1_Minimal */ = {
+			isa = PBXGroup;
+			children = (
+				E818234936404DA0B6485689 /* Source Files */,
+				F178BDC8FA0C438B9400FC6F /* Header Files */,
+				037A3AED775747F690837A5D /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CMakeLists.txt */,
+			);
+			name = CVK_1_Minimal;
+			sourceTree = "<group>";
+		};
+		1A0F79297D0B4448AB0509E7 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				C871D826289B4D2195408EBB /* CMake Rules */,
+				B204082CF3ED4908A97F2D1F /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		4458C719A3534D9A9B285431 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				F34F8728DDC04345B3F2165D /* CMake Rules */,
+				1743A9C455064AEA8C69A63D /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		ACB05F32FA7C4229AA19116E = {
+			isa = PBXGroup;
+			children = (
+				06BC856623FB4AAD9BE684BE /* CVK_1_Minimal */,
+				1A0F79297D0B4448AB0509E7 /* ALL_BUILD */,
+				4458C719A3534D9A9B285431 /* ZERO_CHECK */,
+				EC445C096AED4A5191A54922 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C871D826289B4D2195408EBB /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E818234936404DA0B6485689 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				0587E8988796477C98C0F32A /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Camera.cpp */,
+				4F962B2CE194496FAD1D34EF /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_CompatibilityTools.cpp */,
+				FFC37E29BC124212BA5C9843 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Cone.cpp */,
+				5A0881F2E313409F937B4F83 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Cube.cpp */,
+				50740A811F994C5A90B61639 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Geometry.cpp */,
+				99E9DDB8C91141AF99866DA3 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Node.cpp */,
+				650D0353FABC406EB5DD4A6F /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Ortho.cpp */,
+				55473BBF8B1D4DC297A55451 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Perspective.cpp */,
+				935E2AE4E80640DBBE09D57A /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Pilotview.cpp */,
+				BD8487B52D10411EBC9FE920 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Plane.cpp */,
+				A6A44239840F4BB2973F9DB9 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Projection.cpp */,
+				1824FC7AEB1448C7B0E90384 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_ShaderMinimal.cpp */,
+				3D4183C73CF246E88991A6B3 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_ShaderSet.cpp */,
+				8FE74CE4B8B746AC83A99220 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Sphere.cpp */,
+				604587897CF146B6934DDBBA /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_State.cpp */,
+				623E2B1794F64F9F9A838611 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Teapot.cpp */,
+				288CFB26A3494AEB9B54B1CC /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Trackball.cpp */,
+				B348A30226BD4CFA8F315331 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Triangle.cpp */,
+				0D9384F828E84F32B273FF3C /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/stb_image.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		EC445C096AED4A5191A54922 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D467DD9F00574EB39DC47E5B /* CVK_1_Minimal */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F178BDC8FA0C438B9400FC6F /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6FF50288BF2444EBE9F9095 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Camera.h */,
+				E7D058D0FEE34D17A20ABFAF /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_CompatibilityTools.h */,
+				DF9CAC884EBF4B7198D273CA /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Cone.h */,
+				389EC99086414801AF4A24D0 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Cube.h */,
+				785B8DE991414746B9E7B4AE /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Defs.h */,
+				5752C6A5EA9E4F6BA36AD0C4 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Framework.h */,
+				E621322580584161B63089E6 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Geometry.h */,
+				3C5FCC427D9341068249E339 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Node.h */,
+				9282F39ECC704EFF86302144 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Ortho.h */,
+				68814EBCE8CD4FD5896533EC /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Perspective.h */,
+				3AC9255171BC42CC83AB7045 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Pilotview.h */,
+				8BB60F4F2A104873A5F8FF56 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Plane.h */,
+				8731833CE95A4F508C670C49 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Projection.h */,
+				30A598ECC27841B5AE98E27D /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_ShaderMinimal.h */,
+				CFEBF3F36BDB4F25A974AD8A /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_ShaderSet.h */,
+				4C82929C2C094F66828FC7D9 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Sphere.h */,
+				878EB1769AC04E75B8E923A0 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_State.h */,
+				6BE893A7CEB74036A57A1AA8 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Teapot.h */,
+				76D07501BF744C74987B21D8 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Trackball.h */,
+				1878281A29BA43D2A8EE4A92 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Triangle.h */,
+				C768306E415C493DBF9F42ED /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/Teapot.h */,
+				11BD2F4DA76745C89778A417 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/stb_image.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		F34F8728DDC04345B3F2165D /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F91BACC52554698BAE1079A /* CVK_1_Minimal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4415F72C9CE24CC29DBCEDE2 /* Build configuration list for PBXNativeTarget "CVK_1_Minimal" */;
+			buildPhases = (
+				1DA350882F634A79A2925998 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CVK_1_Minimal;
+			productName = CVK_1_Minimal;
+			productReference = D467DD9F00574EB39DC47E5B /* CVK_1_Minimal */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49610CE272FB447B96F5733E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0830;
+			};
+			buildConfigurationList = D72B0809E2E248D6A3375A13 /* Build configuration list for PBXProject "CVK_1_Minimal" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				C84936C629234C2ABB77F897 /* Debug */,
+				49BEE9F604E04AC090C594E2 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = ACB05F32FA7C4229AA19116E;
+			projectDirPath = /Users/mark/Development/cg/libraries/CVK_1_Minimal;
+			projectRoot = "";
+			targets = (
+				CD6AF11CB9B5428699A9815A /* ALL_BUILD */,
+				8F91BACC52554698BAE1079A /* CVK_1_Minimal */,
+				C47C8B7BF4C84958BB8F41C4 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C40CE1C8BEF4061B7B1685D /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+/Users/mark/Development/cg/CG/BUILD_Xcode/libraries/CVK_1_Minimal/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mark/Development/cg/CG/BUILD_Xcode/libraries/CVK_1_Minimal -f /Users/mark/Development/cg/CG/BUILD_Xcode/libraries/CVK_1_Minimal/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		7FFBE61EF7E94D15A8994141 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D45DA2B0502E4A18BC46E8D9 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+/Users/mark/Development/cg/CG/BUILD_Xcode/libraries/CVK_1_Minimal/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mark/Development/cg/CG/BUILD_Xcode/libraries/CVK_1_Minimal -f /Users/mark/Development/cg/CG/BUILD_Xcode/libraries/CVK_1_Minimal/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		DE6564A43C154255B8E14A35 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DA350882F634A79A2925998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199258AD109D47119C271BF2 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Camera.cpp */,
+				DE5E8C9E234E4FF4BFF974A8 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_CompatibilityTools.cpp */,
+				BB358A260D3E4E5DA9C7C66C /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Cone.cpp */,
+				B3E4C868D30E4A6DA44F8C95 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Cube.cpp */,
+				CE6D1CBB32F241EE8A70CE3A /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Geometry.cpp */,
+				956C3B316048442BB77AD667 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Node.cpp */,
+				1BC1A8EC1BCD4D83B68427E9 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Ortho.cpp */,
+				5754A2D7669642F08A3F6A87 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Perspective.cpp */,
+				CFBDBE65958640E18878445A /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Pilotview.cpp */,
+				647351907A87449DB51D91CF /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Plane.cpp */,
+				6AACEF1D213C4AF7B4060DA8 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Projection.cpp */,
+				721FBC4588C44E6EB6172A60 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_ShaderMinimal.cpp */,
+				E2108FE205C44074B6C6D4B3 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_ShaderSet.cpp */,
+				961CFE0C3FF14F4F831E5B0F /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Sphere.cpp */,
+				048E0A44667B4348A99DDF4B /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_State.cpp */,
+				72F8A582E5E94A00B04E6E0A /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Teapot.cpp */,
+				531DE20065A5492DB485A377 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Trackball.cpp */,
+				5B01B465267443D6AB417A5A /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/CVK_Triangle.cpp */,
+				7BA4A03E489F4984A7D725A5 /* /Users/mark/Development/cg/libraries/CVK_1_Minimal/stb_image.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C56B1A5AC5C6422198305AB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C47C8B7BF4C84958BB8F41C4 /* ZERO_CHECK */;
+			targetProxy = C606C133F890437084AA3A26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		019573AEE5E747159ACFE708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/mark/Development/cg/CG/BUILD_Xcode/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLM_FORCE_RADIANS,"'SHADERS_PATH=\"/Users/mark/Development/cg/CG/src/shaders\"'","'RESOURCES_PATH=\"/Users/mark/Development/cg/CG/src/../../resources\"'",GLFW_INCLUDE_GLCOREARB,GLEW_STATIC,GL_DO_NOT_WARN_IF_MULTI_GL_VERSION_HEADERS_INCLUDED,GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/mark/Development/cg/CG/src/../../libraries);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11     ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CVK_1_Minimal;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mark/Development/cg/CG/BUILD_Xcode/libraries/CVK_1_Minimal;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		1862BB55B94D4C3EBFF5957F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/mark/Development/cg/CG/src/../../libraries);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mark/Development/cg/CG/BUILD_Xcode/libraries/CVK_1_Minimal;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		430DF6011B3F4E928765C2A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = /Users/mark/Development/cg/CG/BUILD_Xcode/libraries/CVK_1_Minimal/build;
+			};
+			name = Release;
+		};
+		45CE7F26114A4144B1478658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/mark/Development/cg/CG/BUILD_Xcode/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLM_FORCE_RADIANS,"'SHADERS_PATH=\"/Users/mark/Development/cg/CG/src/shaders\"'","'RESOURCES_PATH=\"/Users/mark/Development/cg/CG/src/../../resources\"'",GLFW_INCLUDE_GLCOREARB,GLEW_STATIC,GL_DO_NOT_WARN_IF_MULTI_GL_VERSION_HEADERS_INCLUDED,GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/mark/Development/cg/CG/src/../../libraries);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11     -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CVK_1_Minimal;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mark/Development/cg/CG/BUILD_Xcode/libraries/CVK_1_Minimal;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		66351DEC2FD0454ABBCD7030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/mark/Development/cg/CG/src/../../libraries);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mark/Development/cg/CG/BUILD_Xcode/libraries/CVK_1_Minimal;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		72FD9ABA266F45BF97EBE2FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/mark/Development/cg/CG/src/../../libraries);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mark/Development/cg/CG/BUILD_Xcode/libraries/CVK_1_Minimal;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		A6FDBCF018A544C4BB86BFAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/mark/Development/cg/CG/src/../../libraries);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mark/Development/cg/CG/BUILD_Xcode/libraries/CVK_1_Minimal;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C0CBB12088874005BFEAD4F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = /Users/mark/Development/cg/CG/BUILD_Xcode/libraries/CVK_1_Minimal/build;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4415F72C9CE24CC29DBCEDE2 /* Build configuration list for PBXNativeTarget "CVK_1_Minimal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				019573AEE5E747159ACFE708 /* Debug */,
+				45CE7F26114A4144B1478658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BA81DB81D24149B19D6CB84C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66351DEC2FD0454ABBCD7030 /* Debug */,
+				1862BB55B94D4C3EBFF5957F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D72B0809E2E248D6A3375A13 /* Build configuration list for PBXProject "CVK_1_Minimal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0CBB12088874005BFEAD4F7 /* Debug */,
+				430DF6011B3F4E928765C2A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E66295E536A6498C8CA407FC /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72FD9ABA266F45BF97EBE2FD /* Debug */,
+				A6FDBCF018A544C4BB86BFAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49610CE272FB447B96F5733E /* Project object */;
+}
