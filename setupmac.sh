@@ -44,7 +44,6 @@ done
 
 echo "Your choice: $Gen"
 
-cd framework
 fwdir=`pwd`
 fail=""
 for A in BV* CG*
