@@ -6,12 +6,11 @@
 ehthumbs.db
 Thumbs.db
 
-CG/BULID_Xcode
-CG-demos/BULID_Xcode
+CG/BULID_Xcode/
+CG-demos/BULID_Xcode/
 
-CG/BULID_Eclpise
-CG-demos/BULID_Eclipse
+CG/BULID_Eclpise/
+CG-demos/BULID_Eclipse/
 
-CG/BULID_CLI
-CG-demos/BULID_CLI
-
+CG/BULID_CLI/
+CG-demos/BULID_CLI/
