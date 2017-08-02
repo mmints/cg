@@ -32,6 +32,10 @@ int main()
     //compile a shader program using CG1_Tools/CVK_ShaderSet.cpp
     const char *shadernames[2] = {SHADERS_PATH "/Position/position.vert", SHADERS_PATH "/Position/position.frag"};
     CVKShaderSet shaderProgram(VERTEX_SHADER_BIT | FRAGMENT_SHADER_BIT, shadernames);
+    
+    const char *shadernames2[2] = {SHADERS_PATH "/Position/position.vert", SHADERS_PATH "/Position/color.frag"};
+    CVKShaderSet shaderProgram2(VERTEX_SHADER_BIT | FRAGMENT_SHADER_BIT, shadernames2);
+    
     GLuint modelMatrixHandle = glGetUniformLocation(shaderProgram.getProgramID(), "modelMatrix");
     GLuint viewMatrixHandle = glGetUniformLocation(shaderProgram.getProgramID(), "viewMatrix");
     GLuint projectMatrixHandle = glGetUniformLocation(shaderProgram.getProgramID(), "projectMatrix");
@@ -82,7 +86,7 @@ int main()
     glBindBuffer(GL_ARRAY_BUFFER, 0);
 
     //use the shader program
-    shaderProgram.UseProgram();
+    
     
     double sinus = 0;
     float alfa = 0;
@@ -99,9 +103,11 @@ int main()
         mat4 viewMatrix = lookAt(vec3(4.0, 4.0, 6.0f), vec3(0.0, 0.0, 0.0), vec3(0.0f, 1.0f, 0.0f));
         mat4 projectMatrix = perspective(radians(60.0f), width / (float)height, 0.1f, 50.0f);
         
+        
+        
+        shaderProgram.UseProgram();
         glUniformMatrix4fv(viewMatrixHandle, 1, GL_FALSE, value_ptr(viewMatrix));
         glUniformMatrix4fv(projectMatrixHandle, 1, GL_FALSE, value_ptr(projectMatrix));
-        
         //left
         modelMatrix = translate(modelMatrix, vec3(0, sin(sinus), 0));
         glUniformMatrix4fv(modelMatrixHandle, 1, GL_FALSE, value_ptr(modelMatrix));
@@ -111,6 +117,10 @@ int main()
         glViewport(0, height_half, width_half, height_half);
         glDrawArrays(GL_TRIANGLES, 0, 36);
         
+        
+        shaderProgram2.UseProgram();
+        glUniformMatrix4fv(viewMatrixHandle, 1, GL_FALSE, value_ptr(viewMatrix));
+        glUniformMatrix4fv(projectMatrixHandle, 1, GL_FALSE, value_ptr(projectMatrix));
         //right
         modelMatrix = rotate(modelMatrix, alfa, vec3(0, 1, 0));
         glUniformMatrix4fv(modelMatrixHandle, 1, GL_FALSE, value_ptr(modelMatrix));
